@@ -70,72 +70,69 @@ html[saved-theme="dark"] {
 }
 
 html[saved-theme="light"] {  
-  color-scheme: light;  
-  font-size: 18px;
-
   .page > #quartz-body > .left.sidebar {  
-  padding-top: 80px !important;  
+    padding-top: 80px !important;  
   }
 
   .page > #quartz-body > .right.sidebar {  
-  padding-top: 105px !important;  
+    padding-top: 105px !important;  
   }
   
   .page > #quartz-body .page-header {  
-  margin-top: 49px !important;  
-  padding-top: 10px !important;  
+    margin-top: 49px !important;  
+    padding-top: 10px !important;  
   }
   
   a {  
-  color: #1e6bd6;  
+    color: #1e6bd6;  
   }
   
   .explorer a {  
-  color: #2f8f5b !important;  
+    color: #2f8f5b !important;  
   }
 
   a:hover {  
-  color: #1755aa !important;  
+    color: #1755aa !important;  
   }
   
   mark {  
-  margin: 0 -0.05em;  
-  padding: 0.2em 0.2em;  
-  border-radius: 0.2em;  
-  -webkit-box-decoration-break: clone;  
-  box-decoration-break: clone;  
-  background: #fff1a8;  
-  color: #1f2328;  
+    margin: 0 -0.05em;  
+    padding: 0.2em 0.2em;  
+    border-radius: 0.2em;  
+    -webkit-box-decoration-break: clone;  
+    box-decoration-break: clone;  
+    background: #fff1a8;  
+    color: #1f2328;  
   }
   
   blockquote {  
-  background-color: #eef4ff;  
-  border-radius: 2px;  
-  padding-top: 4px;  
-  padding-right: 0px;  
-  padding-bottom: 4px;  
-  padding-left: 20px;  
-  margin: 1em 0;  
-  border-left: 3px solid #4c79cd;  
-  color: #334155;  
+    background-color: #eef4ff;  
+    border-radius: 2px;  
+    padding-top: 4px;  
+    padding-right: 0px;  
+    padding-bottom: 4px;  
+    padding-left: 20px;  
+    margin: 1em 0;  
+    border-left: 3px solid #4c79cd;  
+    color: #334155;  
   }
   
   ::selection {  
-  background: rgba(0, 122, 255, 0.18);  
-  color: #10223d;  
+    background: rgba(0, 122, 255, 0.18);  
+    color: #10223d;  
   }
   
   ::-moz-selection {  
-  background: rgba(0, 122, 255, 0.18);  
-  color: #10223d;  
+    background: rgba(0, 122, 255, 0.18);  
+    color: #10223d;  
   }
   
   :not(pre) > code {  
-  background-color: #eef2f8 !important;  
-  color: #1f2937 !important;  
-  padding: 4px 8px !important;  
-  border-radius: 6px !important;  
-  border: 1px solid #c7d2e3 !important;  
-  font-weight: 500;  
+    background-color: #eef2f8 !important;  
+    color: #1f2937 !important;  
+    padding: 4px 8px !important;  
+    border-radius: 6px !important;  
+    border: 1px solid #c7d2e3 !important;  
+    font-weight: 500;  
   }  
 }
