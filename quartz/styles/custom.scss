@@ -1,0 +1,75 @@
+@use "./base.scss";
+
+// put your custom CSS here!
+
+.page > #quartz-body > .left.sidebar {
+  padding-top: 80px !important;
+}
+
+.page > #quartz-body > .right.sidebar {
+  padding-top: 105px  !important;
+}
+
+// .page > #quartz-body > .center {
+//  margin-top: 250px !important;
+//  padding-top: 250px !important;
+// }
+
+.page > #quartz-body .page-header {
+  margin-top: 49px !important;
+  padding-top: 10px !important;
+}
+
+a {
+  color: #4da3ff;
+}
+
+.explorer a {
+  color: #86df99 !important;
+}
+
+a:hover {
+  color: #2f7ccc !important; 
+}
+
+mark {
+  margin: 0 -0.05em;
+  padding: 0.2em 0.2em;
+  border-radius: 0.2em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+blockquote {
+  background-color: #26386647;
+  border-radius: 2px;
+  padding-top: 4px;
+  padding-right: 0px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  margin: 1em 0;
+  border-left: 3px solid #4c79cd;
+}
+
+::selection {
+  background: rgba(0, 122, 255, 0.35);
+  color: white;
+}
+
+::-moz-selection {
+  background: rgba(0, 122, 255, 0.35);
+  color: white;
+}
+
+:not(pre) > code {
+  background-color: #323844 !important;
+  color: #e6edf3 !important;
+  padding: 4px 8px !important;
+  border-radius: 6px !important;
+  border: 1px solid #3a4150 !important;
+  font-weight: 500;
+}
+
+html {
+  font-size: 18px;
+}
