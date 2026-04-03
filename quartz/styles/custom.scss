@@ -1,6 +1,9 @@
 @use "./base.scss";
 
-// ТОЛЬКО для dark theme
+html {
+  font-size: 18px;
+}
+
 html[saved-theme="dark"] {
   .page > #quartz-body > .left.sidebar {
     padding-top: 80px !important;
@@ -64,9 +67,4 @@ html[saved-theme="dark"] {
     border: 1px solid #3a4150 !important;
     font-weight: 500;
   }
-
-  html {
-    font-size: 18px;
-  }
 }
-
